@@ -30,3 +30,4 @@ if __name__ == '__main__':
                       columns=[f'f{i}' for i in range(X.shape[1])])
     df.loc[:, 'target'] = y
     df = create_folds(df)
+    df.to_csv('../data/Regression_StratifiedKFold.csv', index=False)
