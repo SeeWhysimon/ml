@@ -10,7 +10,6 @@ def create_folds(data):
 
     # Sturge's Rule
     num_bins = int(np.floor(1 + np.log2(len(data))))
-
     data.loc[:, "bins"] = pd.cut(data['targe'],
                                  bins=num_bins,
                                  labels=False)
@@ -26,8 +25,7 @@ if __name__ == '__main__':
     X, y = datasets.make_regression(n_samples=15000,
                                     n_features=100, 
                                     n_targets=1)
-    df = pd.DataFrame(X,
-                      columns=[f'f{i}' for i in range(X.shape[1])])
+    df = pd.DataFrame(X, columns=[f'f{i}' for i in range(X.shape[1])])
     df.loc[:, 'target'] = y
     df = create_folds(df)
     df.to_csv('../data/Regression_StratifiedKFold.csv', index=False)
