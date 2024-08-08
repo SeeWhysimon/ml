@@ -10,7 +10,7 @@ def create_folds(data):
 
     # Sturge's Rule
     num_bins = int(np.floor(1 + np.log2(len(data))))
-    data.loc[:, "bins"] = pd.cut(data['targe'],
+    data.loc[:, "bins"] = pd.cut(data['target'],
                                  bins=num_bins,
                                  labels=False)
     kf = model_selection.StratifiedKFold(n_splits=5)
