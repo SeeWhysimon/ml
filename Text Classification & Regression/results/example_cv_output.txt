@@ -1,0 +1,52 @@
+without word_tokenize:
+----------------------
+original string:
+['hello, how are you?', 'It is nice to meet you.', "Let's go play basketball!", 'Yes!!!']
+vocabulary:
+{'hello': 3, 'how': 4, 'are': 0, 'you': 13, 'it': 6, 'is': 5, 'nice': 9, 'to': 11, 'meet': 8, 'let': 7, 'go': 2, 'play': 10, 'basketball': 1, 'yes': 12}
+transformed string:
+  (0, 0)        1
+  (0, 3)        1
+  (0, 4)        1
+  (0, 13)       1
+  (1, 5)        1
+  (1, 6)        1
+  (1, 8)        1
+  (1, 9)        1
+  (1, 11)       1
+  (1, 13)       1
+  (2, 1)        1
+  (2, 2)        1
+  (2, 7)        1
+  (2, 10)       1
+  (3, 12)       1
+-------------------
+with word_tokenize:
+-------------------
+original string:
+['hello, how are you?', 'It is nice to meet you.', "Let's go play basketball!", 'Yes!!!']
+vocabulary:
+{'hello': 8, ',': 2, 'how': 9, 'are': 5, 'you': 18, '?': 4, 'it': 11, 'is': 10, 'nice': 14, 'to': 16, 'meet': 13, '.': 3, 'let': 12, "'s": 1, 'go': 7, 'play': 15, 'basketball': 6, '!': 0, 'yes': 17}
+transformed string:
+  (0, 2)        1
+  (0, 4)        1
+  (0, 5)        1
+  (0, 8)        1
+  (0, 9)        1
+  (0, 18)       1
+  (1, 3)        1
+  (1, 10)       1
+  (1, 11)       1
+  (1, 13)       1
+  (1, 14)       1
+  (1, 16)       1
+  (1, 18)       1
+  (2, 0)        1
+  (2, 1)        1
+  (2, 6)        1
+  (2, 7)        1
+  (2, 12)       1
+  (2, 15)       1
+  (3, 0)        3
+  (3, 17)       1
+-------------------

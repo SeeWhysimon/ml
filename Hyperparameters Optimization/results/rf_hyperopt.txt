@@ -1,0 +1,2 @@
+100%|███████| 15/15 [02:33<00:00, 10.20s/trial, best loss: -0.9005000000000001]
+{'criterion': 1, 'max_depth': 8.0, 'max_features': 0.4650997006567581, 'n_estimators': 891.0}

@@ -1,0 +1,12 @@
+Best parameters found:  {'clf': SVC(), 'clf__C': 10, 'clf__gamma': 0.001, 'clf__kernel': 'linear'}
+Best cross-validation accuracy:  0.9578571428571427
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98       151
+           1       0.91      0.99      0.95       146
+           2       0.99      0.92      0.95       148
+           3       0.98      0.99      0.99       155
+
+    accuracy                           0.97       600
+   macro avg       0.97      0.97      0.97       600
+weighted avg       0.97      0.97      0.97       600

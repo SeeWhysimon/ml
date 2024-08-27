@@ -1,0 +1,3 @@
+{'dayofweek': array([2, 2, 2, 2, 2, 2, 2, 2, 3]), 'dayofyear': array([227, 227, 227, 227, 227, 227, 227, 227, 228]), 'hour': array([ 0,  3,  6,  9, 12, 15, 18, 21,  0]), 'is_leap_year': array([ True,  True,  True,  True,  True,  True,  True,  True,  True]), 'quarter': array([3, 3, 3, 3, 3, 3, 3, 3, 3]), 'weekofyear': <IntegerArray>
+[33, 33, 33, 33, 33, 33, 33, 33, 33]
+Length: 9, dtype: UInt32}

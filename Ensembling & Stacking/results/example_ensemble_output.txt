@@ -1,0 +1,20 @@
+Fold-2: LR AUC = 0.9724206002856645
+Fold-2: RF AUC = 0.9724206002856645
+Fold-2: XGB AUC = 0.9904080661876152
+Fold-2: Average Pred AUC = 0.9873590217969914
+Fold-1: LR AUC = 0.9706751249283199
+Fold-1: RF AUC = 0.9706751249283199
+Fold-1: XGB AUC = 0.9904247754874254
+Fold-1: Average Pred AUC = 0.9871183670230197
+Optimization terminated successfully.
+         Current function value: -0.990430
+         Iterations: 47
+         Function evaluations: 92
+Optimized AUC, Fold 2 = 0.9903811061487928
+Coefficients = [0.0287797  0.0032109  0.76004156]
+Optimization terminated successfully.
+         Current function value: -0.990454
+         Iterations: 40
+         Function evaluations: 89
+Optimized AUC, Fold 1 = 0.9903447752826245
+Coefficients = [ 0.14490013 -0.14354062  0.37491057]

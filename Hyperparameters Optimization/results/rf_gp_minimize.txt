@@ -1,0 +1,76 @@
+Iteration No: 1 started. Evaluating function at random point.
+Iteration No: 1 ended. Evaluation done at random point.
+Time taken: 21.8993
+Function value obtained: -0.8260
+Current minimum: -0.8260
+Iteration No: 2 started. Evaluating function at random point.
+Iteration No: 2 ended. Evaluation done at random point.
+Time taken: 6.9501
+Function value obtained: -0.8990
+Current minimum: -0.8990
+Iteration No: 3 started. Evaluating function at random point.
+Iteration No: 3 ended. Evaluation done at random point.
+Time taken: 10.9553
+Function value obtained: -0.7620
+Current minimum: -0.8990
+Iteration No: 4 started. Evaluating function at random point.
+Iteration No: 4 ended. Evaluation done at random point.
+Time taken: 15.4627
+Function value obtained: -0.8895
+Current minimum: -0.8990
+Iteration No: 5 started. Evaluating function at random point.
+Iteration No: 5 ended. Evaluation done at random point.
+Time taken: 5.2675
+Function value obtained: -0.8220
+Current minimum: -0.8990
+Iteration No: 6 started. Evaluating function at random point.
+Iteration No: 6 ended. Evaluation done at random point.
+Time taken: 18.6579
+Function value obtained: -0.8985
+Current minimum: -0.8990
+Iteration No: 7 started. Evaluating function at random point.
+Iteration No: 7 ended. Evaluation done at random point.
+Time taken: 7.9680
+Function value obtained: -0.7655
+Current minimum: -0.8990
+Iteration No: 8 started. Evaluating function at random point.
+Iteration No: 8 ended. Evaluation done at random point.
+Time taken: 9.7427
+Function value obtained: -0.8935
+Current minimum: -0.8990
+Iteration No: 9 started. Evaluating function at random point.
+Iteration No: 9 ended. Evaluation done at random point.
+Time taken: 10.9178
+Function value obtained: -0.8785
+Current minimum: -0.8990
+Iteration No: 10 started. Evaluating function at random point.
+Iteration No: 10 ended. Evaluation done at random point.
+Time taken: 45.0580
+Function value obtained: -0.8930
+Current minimum: -0.8990
+Iteration No: 11 started. Searching for the next optimal point.
+Iteration No: 11 ended. Search finished for the next optimal point.
+Time taken: 3.3110
+Function value obtained: -0.8860
+Current minimum: -0.8990
+Iteration No: 12 started. Searching for the next optimal point.
+Iteration No: 12 ended. Search finished for the next optimal point.
+Time taken: 2.7489
+Function value obtained: -0.8925
+Current minimum: -0.8990
+Iteration No: 13 started. Searching for the next optimal point.
+Iteration No: 13 ended. Search finished for the next optimal point.
+Time taken: 2.4666
+Function value obtained: -0.8875
+Current minimum: -0.8990
+Iteration No: 14 started. Searching for the next optimal point.
+Iteration No: 14 ended. Search finished for the next optimal point.
+Time taken: 4.6929
+Function value obtained: -0.8920
+Current minimum: -0.8990
+Iteration No: 15 started. Searching for the next optimal point.
+Iteration No: 15 ended. Search finished for the next optimal point.
+Time taken: 14.9008
+Function value obtained: -0.7770
+Current minimum: -0.8990
+{'max_depth': 9, 'n_estimators': 286, 'criterion': 'gini', 'max_features': 0.7819080092995756}

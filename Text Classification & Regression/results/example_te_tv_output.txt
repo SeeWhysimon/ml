@@ -1,0 +1,20 @@
+min_df=1, no cleaning
+--------
+['-hate-', 'bomb-site', 'battered', "'waldemar", "'caper"]
+--------
+min_df=2, no cleaning
+--------
+['akkaya', "'real", 'each', 'decorating', 'aficionados']
+--------
+min_df=1, cleaned
+--------
+['blvd', '5th', 'awards', 'anesthetic', 'absalom']
+--------
+min_df=2, cleaned
+--------
+['denim', 'ahead', 'christened', 'custer', '2009']
+--------
+min_df=2, cleaned with stopwords removed
+--------
+['alfredo', 'continuing', 'blithering', 'anodyne', 'citizenship']
+--------

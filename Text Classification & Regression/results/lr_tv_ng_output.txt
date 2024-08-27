@@ -1,0 +1,16 @@
+ngram_range = (3, 3):
+---------------------
+Fold: 0, Accuracy: 0.8586
+Fold: 1, Accuracy: 0.8596
+Fold: 2, Accuracy: 0.8649
+Fold: 3, Accuracy: 0.8546
+Fold: 4, Accuracy: 0.8618
+---------------------
+ngram_range = (2, 2):
+---------------------
+Fold: 0, Accuracy: 0.8854
+Fold: 1, Accuracy: 0.897
+Fold: 2, Accuracy: 0.8906
+Fold: 3, Accuracy: 0.8886
+Fold: 4, Accuracy: 0.8861
+---------------------

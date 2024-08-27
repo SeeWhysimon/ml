@@ -1,0 +1,4 @@
+Stacking model accuracy: 0.9533333333333334
+SVC accuracy: 0.95
+Decision Tree accuracy: 0.7866666666666666
+Linear Regressor accuracy: 0.82

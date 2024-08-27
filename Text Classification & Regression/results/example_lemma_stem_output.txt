@@ -1,0 +1,3 @@
+word=fishing, stemmed word=fish, lemma=fishing
+word=fishes, stemmed word=fish, lemma=fish
+word=fished, stemmed word=fish, lemma=fished

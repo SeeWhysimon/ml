@@ -1,0 +1,2 @@
+Original variance: 82136.81159396088
+New variance after log: 0.7722585374420429

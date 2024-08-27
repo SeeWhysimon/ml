@@ -1,0 +1,41 @@
+Epoch [1/10]
+100%|████████████████████████████████████████| 625/625 [02:16<00:00,  4.57it/s]
+Training Loss: 0.8948, Training Accuracy: 50.75%
+Validation Loss: 0.6964, Validation Accuracy: 48.46%
+Epoch [2/10]
+100%|████████████████████████████████████████| 625/625 [05:59<00:00,  1.74it/s]
+Training Loss: 0.6934, Training Accuracy: 50.48%
+Validation Loss: 0.6935, Validation Accuracy: 48.46%
+Epoch [3/10]
+100%|████████████████████████████████████████| 625/625 [06:23<00:00,  1.63it/s]
+Training Loss: 0.6934, Training Accuracy: 50.28%
+Validation Loss: 0.6931, Validation Accuracy: 51.54%
+Epoch [4/10]
+100%|████████████████████████████████████████| 625/625 [06:23<00:00,  1.63it/s]
+Training Loss: 0.6933, Training Accuracy: 50.12%
+Validation Loss: 0.6932, Validation Accuracy: 48.46%
+Epoch [5/10]
+100%|████████████████████████████████████████| 625/625 [06:22<00:00,  1.63it/s]
+Training Loss: 0.6933, Training Accuracy: 49.70%
+Validation Loss: 0.6931, Validation Accuracy: 51.54%
+Epoch [6/10]
+100%|████████████████████████████████████████| 625/625 [06:23<00:00,  1.63it/s]
+Training Loss: 0.6932, Training Accuracy: 49.94%
+Validation Loss: 0.6939, Validation Accuracy: 48.46%
+Epoch [7/10]
+100%|████████████████████████████████████████| 625/625 [06:24<00:00,  1.62it/s]
+Training Loss: 0.6933, Training Accuracy: 49.98%
+Validation Loss: 0.6930, Validation Accuracy: 51.54%
+Epoch [8/10]
+100%|████████████████████████████████████████| 625/625 [06:23<00:00,  1.63it/s]
+Training Loss: 0.6931, Training Accuracy: 50.52%
+Validation Loss: 0.6931, Validation Accuracy: 51.54%
+Epoch [9/10]
+100%|████████████████████████████████████████| 625/625 [06:25<00:00,  1.62it/s]
+Training Loss: 0.6933, Training Accuracy: 49.94%
+Validation Loss: 0.6932, Validation Accuracy: 48.46%
+Epoch [10/10]
+100%|████████████████████████████████████████| 625/625 [06:24<00:00,  1.63it/s]
+Training Loss: 0.6933, Training Accuracy: 50.13%
+Validation Loss: 0.6933, Validation Accuracy: 48.46%
+Training complete and model saved.

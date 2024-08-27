@@ -1,0 +1,22 @@
+Using downloaded and verified file: ../../data/Image Classification & Segmentation/VOC2012_train_val/VOCtrainval_11-May-2012.tar
+Extracting ../../data/Image Classification & Segmentation/VOC2012_train_val/VOCtrainval_11-May-2012.tar to ../../data/Image Classification & Segmentation/VOC2012_train_val/
+Epoch 1/20, Loss: 0.95193544694263
+Epoch 2/20, Loss: 0.24907836479985196
+Epoch 3/20, Loss: 0.22138746374327203
+Epoch 4/20, Loss: 0.21578756395889365
+Epoch 5/20, Loss: 0.20788581555952196
+Epoch 6/20, Loss: 0.20732402874399786
+Epoch 7/20, Loss: 0.20223281079012415
+Epoch 8/20, Loss: 0.2036857635754606
+Epoch 9/20, Loss: 0.20115912519395351
+Epoch 10/20, Loss: 0.19929733240733977
+Epoch 11/20, Loss: 0.20031841164049896
+Epoch 12/20, Loss: 0.1994724293117938
+Epoch 13/20, Loss: 0.19853763727714185
+Epoch 14/20, Loss: 0.19554347399136293
+Epoch 15/20, Loss: 0.19573689090168994
+Epoch 16/20, Loss: 0.19866544583245463
+Epoch 17/20, Loss: 0.1945850455566593
+Epoch 18/20, Loss: 0.1956711149086123
+Epoch 19/20, Loss: 0.19769783552898013
+Epoch 20/20, Loss: 0.1973787906539181

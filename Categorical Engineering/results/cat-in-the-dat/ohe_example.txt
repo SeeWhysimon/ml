@@ -1,0 +1,3 @@
+Size of dense array: 8000000000
+Size of sparse array: 8000000
+Full size of sparse array: 16000004

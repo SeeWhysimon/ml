@@ -1,0 +1,2 @@
+Bagging classifier accuracy: 0.82
+Single decision tree accuracy: 0.77

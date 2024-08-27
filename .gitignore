@@ -1,0 +1,13 @@
+# Ignore VOC dataset
+Image Classification & Segmentation/data/VOC2012_train_val/VOCdevkit/VOC2012/
+Image Classification & Segmentation/data/VOC2012_train_val/VOCtrainval_11-May-2012.tar
+
+Image Classification & Segmentation/results/unet_model.pth
+
+# Ignore the word embeddings
+Text Classification & Regression/data/crawl-300d-2M.vec
+
+# Other files and directories to ignore
+*.log
+*.tmp
+__pycache__/

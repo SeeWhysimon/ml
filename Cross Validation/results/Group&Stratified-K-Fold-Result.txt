@@ -1,0 +1,69 @@
+Fold 1
+TRAIN groups: ['patient_7' 'patient_6' 'patient_8' 'patient_1' 'patient_10' 'patient_2'
+ 'patient_5' 'patient_3' 'patient_9' 'patient_4']
+TRAIN class distribution: CancerType
+benign       0.506098
+malignant    0.493902
+Name: proportion, dtype: float64
+TEST groups: ['patient_4' 'patient_9' 'patient_3' 'patient_8' 'patient_2' 'patient_7'
+ 'patient_6' 'patient_10' 'patient_1' 'patient_5']
+TEST class distribution: CancerType
+benign       0.505
+malignant    0.495
+Name: proportion, dtype: float64
+
+Fold 2
+TRAIN groups: ['patient_8' 'patient_7' 'patient_6' 'patient_3' 'patient_10' 'patient_5'
+ 'patient_1' 'patient_2' 'patient_4' 'patient_9']
+TRAIN class distribution: CancerType
+benign       0.506173
+malignant    0.493827
+Name: proportion, dtype: float64
+TEST groups: ['patient_4' 'patient_9' 'patient_3' 'patient_8' 'patient_2' 'patient_7'
+ 'patient_6' 'patient_10' 'patient_1' 'patient_5']
+TEST class distribution: CancerType
+benign       0.505
+malignant    0.495
+Name: proportion, dtype: float64
+
+Fold 3
+TRAIN groups: ['patient_1' 'patient_2' 'patient_5' 'patient_7' 'patient_10' 'patient_6'
+ 'patient_3' 'patient_4' 'patient_9' 'patient_8']
+TRAIN class distribution: CancerType
+malignant    0.5
+benign       0.5
+Name: proportion, dtype: float64
+TEST groups: ['patient_4' 'patient_9' 'patient_3' 'patient_8' 'patient_2' 'patient_7'
+ 'patient_6' 'patient_10' 'patient_1' 'patient_5']
+TEST class distribution: CancerType
+benign       0.505
+malignant    0.495
+Name: proportion, dtype: float64
+
+Fold 4
+TRAIN groups: ['patient_2' 'patient_3' 'patient_5' 'patient_8' 'patient_1' 'patient_6'
+ 'patient_10' 'patient_7' 'patient_4' 'patient_9']
+TRAIN class distribution: CancerType
+benign       0.506329
+malignant    0.493671
+Name: proportion, dtype: float64
+TEST groups: ['patient_4' 'patient_9' 'patient_3' 'patient_8' 'patient_2' 'patient_7'
+ 'patient_6' 'patient_10' 'patient_1' 'patient_5']
+TEST class distribution: CancerType
+benign       0.505
+malignant    0.495
+Name: proportion, dtype: float64
+
+Fold 5
+TRAIN groups: ['patient_6' 'patient_7' 'patient_2' 'patient_5' 'patient_1' 'patient_3'
+ 'patient_10' 'patient_8' 'patient_4' 'patient_9']
+TRAIN class distribution: CancerType
+benign       0.50641
+malignant    0.49359
+Name: proportion, dtype: float64
+TEST groups: ['patient_4' 'patient_9' 'patient_3' 'patient_8' 'patient_2' 'patient_7'
+ 'patient_6' 'patient_10' 'patient_1' 'patient_5']
+TEST class distribution: CancerType
+benign       0.505
+malignant    0.495
+Name: proportion, dtype: float64
