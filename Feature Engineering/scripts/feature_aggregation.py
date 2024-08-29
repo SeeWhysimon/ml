@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-file_path = '../../data/Feature Engineering/customer_transactions.csv'
+file_path = '../data/customer_transactions.csv'
 df = pd.read_csv(file_path)
 
 aggregated_features = df.groupby('customer_id', as_index=False).agg(
@@ -18,7 +18,5 @@ aggregated_features['percentile_90'] = df.groupby('customer_id')['transaction_am
 
 aggregated_features = aggregated_features.drop_duplicates(subset='customer_id')
 
-output_file_path = '../../data/Feature Engineering/aggregated_features.csv'
+output_file_path = '../data/aggregated_features.csv'
 aggregated_features.to_csv(output_file_path, index=False)
-
-print("Feature engineering complete. Processed data saved to:", output_file_path)

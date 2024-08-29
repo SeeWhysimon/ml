@@ -1,7 +1,7 @@
 from tsfresh.feature_extraction import feature_calculators as fc
 import pandas as pd
 
-df = pd.read_csv('../../data/Feature Engineering/customer_transactions.csv')
+df = pd.read_csv('../data/customer_transactions.csv')
 
 result_df = pd.DataFrame()
 
@@ -15,6 +15,4 @@ result_df['mean_change'] = df.groupby('customer_id')['transaction_amount'].trans
 
 result_df = result_df.drop_duplicates(subset='customer_id')
 
-result_df.to_csv('../../data/Feature Engineering/tsfresh_feature_engineering.csv', index=False)
-
-print("Feature engineering with tsfresh complete. Processed data saved to: '../../data/Feature Engineering/feat_eng_tsfresh.csv'")
+result_df.to_csv('../data/tsfresh_feature_engineering.csv', index=False)

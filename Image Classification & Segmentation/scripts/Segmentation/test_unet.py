@@ -6,7 +6,7 @@ from torchvision import transforms
 
 def load_model():
     model = UNet()
-    model.load_state_dict(torch.load('../../../results/Image Classification & Segmentation/unet_model.pth'))
+    model.load_state_dict(torch.load('../../results/Segmentation/unet_model.pth'))
     model.eval()
     model
     return model
@@ -20,7 +20,7 @@ def test():
 
     model = load_model()
 
-    test_image_path = '../../../data/Image Classification & Segmentation/VOC2012_train_val/VOCdevkit/VOC2012/JPEGImages/2007_000033.jpg'
+    test_image_path = '../../data/VOC2012_train_val/VOCdevkit/VOC2012/JPEGImages/2007_000033.jpg'
     test_image = Image.open(test_image_path)
     test_image = transform(test_image).unsqueeze(0)
 
@@ -30,7 +30,7 @@ def test():
 
     plt.imshow(output)
     plt.axis('off')
-    plt.savefig('../../../results/Image Classification & Segmentation/Segmentation/unet_output.png')
+    plt.savefig('../../results/Segmentation/unet_output.png')
 
 if __name__ == "__main__":
     test()

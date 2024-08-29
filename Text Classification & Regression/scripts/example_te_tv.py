@@ -15,7 +15,7 @@ def clean_text(s: str) -> str:
     return s
 
 # Read only 10k samples from the training data
-corpus = pd.read_csv("../../data/Text Classification & Regression/IMDB dataset.csv", nrows=10000)
+corpus = pd.read_csv("../data/IMDB dataset.csv", nrows=10000)
 corpus.loc[:, "review"] = corpus["review"].apply(clean_text)
 corpus = corpus["review"].values
 

@@ -52,4 +52,4 @@ df.sort_values(by='transaction_date', inplace=True)
 print(df.head())
 
 # Save the DataFrame to a CSV file
-df.to_csv('../../data/Feature Engineering/customer_transactions.csv', index=False)
+df.to_csv('../data/customer_transactions.csv', index=False)

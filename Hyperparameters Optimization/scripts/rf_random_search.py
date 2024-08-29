@@ -6,7 +6,7 @@ from sklearn import metrics
 from sklearn import model_selection
 
 if __name__ == '__main__':
-    df = pd.read_csv('../../data/mobile phone price/train.csv')
+    df = pd.read_csv('../data/mobile phone price/train.csv')
     X = df.drop('price_range', axis=1).values
     y = df['price_range'].values
 

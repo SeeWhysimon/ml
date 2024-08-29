@@ -50,7 +50,7 @@ class UnivariateFeatureSelection:
         return self.selection.fit_transform(X, y)
     
 if __name__ == '__main__':
-    df = pd.read_csv('../../data/Feature Selection/original_data.csv')
+    df = pd.read_csv('../data/original_data.csv')
 
     # Suppose the last column is the target
     target = df.columns[-1]
@@ -78,4 +78,4 @@ if __name__ == '__main__':
         target: y
     })
     
-    df_transformed.to_csv('../../data/Feature Selection/univariate_feature_selection.csv', index=False)
+    df_transformed.to_csv('../data/univariate_feature_selection.csv', index=False)

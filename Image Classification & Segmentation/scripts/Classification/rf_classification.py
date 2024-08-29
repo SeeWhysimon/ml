@@ -58,7 +58,7 @@ def perform_cv(data: pd.DataFrame, n_splits: int = 5):
     print(f"Mean Accuracy across folds: {np.mean(fold_results):.4f}")
 
 if __name__ == '__main__':
-    # data = load_data('../../../data/cat_dog/train/')
-    # data.to_csv('../../../data/cat_dog/train.csv', index=False)
-    data = pd.read_csv('../../../data/cat_dog/train.csv')
+    # data = load_data('../../data/cat_dog/train/')
+    # data.to_csv('../../data/cat_dog/train.csv', index=False)
+    data = pd.read_csv('../../data/cat_dog/train.csv')
     perform_cv(data, n_splits=5)

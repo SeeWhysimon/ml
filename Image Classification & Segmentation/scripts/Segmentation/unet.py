@@ -99,5 +99,5 @@ if __name__ == '__main__':
     image_1 = tensor2image(channel_1)
     image_2 = tensor2image(channel_2)
 
-    image_1.save('../../results/Image Classification & Segmentation/channel_1.png')
-    image_2.save('../../results/Image Classification & Segmentation/channel_2.png')
+    image_1.save('../../results/Segmentation/channel_1.png')
+    image_2.save('../../results/Segmentation/channel_2.png')

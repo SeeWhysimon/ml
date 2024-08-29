@@ -28,7 +28,7 @@ def remove_by_preason_corr(df: pd.DataFrame,
     return df_reduced
 
 if __name__ == '__main__':
-    ori_df = pd.read_csv('../../data/Feature Selection/original_data.csv')
+    ori_df = pd.read_csv('../data/original_data.csv')
     reduced_df = ori_df.drop(columns=['sample_id'])
     
     corr_matrix = get_corr_matrix(reduced_df, verbose=True)
@@ -37,4 +37,4 @@ if __name__ == '__main__':
     
     reduced_df = remove_by_preason_corr(reduced_df, threshold=threshold, verbose=True)
     reduced_df.insert(0, 'sample_id', ori_df['sample_id'])
-    reduced_df.to_csv('../../data/Feature Selection/preason_corr_thresh_0.5.csv', index=False)
+    reduced_df.to_csv('../data/preason_corr_thresh_0.5.csv', index=False)

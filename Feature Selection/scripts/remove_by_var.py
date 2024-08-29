@@ -35,10 +35,10 @@ def remove_by_var(df: pd.DataFrame,
     return reduced_df
 
 if __name__ == '__main__':
-    ori_data = pd.read_csv('../../data/Feature Selection/original_data.csv')
+    ori_data = pd.read_csv('../data/original_data.csv')
 
     threshold = 5
 
     transformed_df = remove_by_var(ori_data, threshold=threshold, verbose=True)
 
-    transformed_df.to_csv('../../data/Feature Selection/var_thresh_0.5.csv', index=False)
+    transformed_df.to_csv('../data/var_thresh_0.5.csv', index=False)

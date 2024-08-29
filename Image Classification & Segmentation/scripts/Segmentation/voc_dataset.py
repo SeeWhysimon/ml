@@ -15,7 +15,7 @@ def get_train_loader(batch_size=16):
     ])
 
     train_data = datasets.VOCSegmentation(
-        root='../../../data/Image Classification & Segmentation/VOC2012_train_val/',
+        root='../../data/VOC2012_train_val/',
         year='2012',
         image_set='train',
         download=True,

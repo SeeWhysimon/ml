@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.feature_selection import SelectFromModel
 
-df = pd.read_csv('../../data/Feature Selection/original_data.csv')
+df = pd.read_csv('../data/original_data.csv')
 
 # Suppose the last column is the target
 target = df.columns[-1]
@@ -13,6 +13,7 @@ X = df[features].values
 
 model = RandomForestRegressor()
 
+# Select (num_features * threshold) of features
 sfm = SelectFromModel(estimator=model, threshold=0.1)
 X_transformed = sfm.fit_transform(X, y)
 

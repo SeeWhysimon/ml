@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn import preprocessing
 
-df = pd.read_csv('../../data/Feature Engineering/customer_transactions.csv')
+df = pd.read_csv('../data/customer_transactions.csv')
 
 poly_feat_df = pd.DataFrame()
 poly_feat_df['customer_id'] = df['customer_id']
@@ -20,4 +20,4 @@ new_feature_names = feature_names[2:]
 new_poly_features = poly_features[:, 2:]
 poly_feat_df[new_feature_names] = new_poly_features
 
-poly_feat_df.to_csv('../../data/Feature Engineering/polynomial_feature_engineering.csv', index=False)
+poly_feat_df.to_csv('../data/polynomial_feature_engineering.csv', index=False)

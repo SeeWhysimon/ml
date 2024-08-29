@@ -1,11 +1,8 @@
-# Ignore VOC dataset
-Image Classification & Segmentation/data/VOC2012_train_val/VOCdevkit/VOC2012/
-Image Classification & Segmentation/data/VOC2012_train_val/VOCtrainval_11-May-2012.tar
+# Ignore huge datasets
+Image Classification & Segmentation/data/
 
-Image Classification & Segmentation/results/unet_model.pth
-
-# Ignore the word embeddings
-Text Classification & Regression/data/crawl-300d-2M.vec
+# Ignore huge models
+Image Classification & Segmentation/results/Segmentation/unet_model.pth
 
 # Other files and directories to ignore
 *.log

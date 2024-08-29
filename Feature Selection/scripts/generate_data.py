@@ -45,4 +45,4 @@ if __name__ == '__main__':
     df['feat_4'] = np.exp(df['feat_1'].values)
     df['feat_8'] = df['feat_3'].values * 7 - 10
 
-    df.to_csv('../../data/Feature Selection/original_data.csv', index=False)
+    df.to_csv('../data/original_data.csv', index=False)

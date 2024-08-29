@@ -48,13 +48,13 @@ def text_to_vector(text: str, embedding_dict: dict, stop_words: list, tokenizer)
 
 def main():
     # Load dataset and shuffle it
-    df = pd.read_csv("../../data/Text Classification & Regression/IMDB Dataset.csv")
+    df = pd.read_csv("../data/IMDB Dataset.csv")
     df["sentiment"] = df["sentiment"].apply(lambda x: 1 if x == "positive" else 0)
     df = df.sample(frac=1).reset_index(drop=True)
     
     # Load word embeddings
     print("Loading word embeddings...")
-    word_embeddings = load_word_embeddings("../../data/Text Classification & Regression/crawl-300d-2M.vec")
+    word_embeddings = load_word_embeddings("../data/crawl-300d-2M.vec")
 
     # Convert sentences to vectors
     print("Converting sentences to vectors...")

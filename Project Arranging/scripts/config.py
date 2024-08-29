@@ -1,3 +1,5 @@
-TRAINING_FILE = '../../data/mnist/mnist_train_folds.csv'
+ORIGINAL_FILE = "../data/mnist.csv"
 
-MODEL_OUTPUT = '../../results/'
+TRAINING_FILE = '../data/mnist_train_folds.csv'
+
+MODEL_OUTPUT = '../results/'

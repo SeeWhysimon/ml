@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 
-df = pd.read_csv('../../data/Feature Selection/original_data.csv')
+df = pd.read_csv('../data/original_data.csv')
 
 # Suppose the last column is the target
 target = df.columns[-1]
@@ -30,4 +30,4 @@ selecete_features = features[importances > threshold]
 
 df_transformed = df[['sample_id'] + list(selecete_features) + [target]]
 
-df_transformed.to_csv('../../data/Feature Selection/select_by_coeffs_importance.csv', index=False)
+df_transformed.to_csv('../data/select_by_coeffs_importance.csv', index=False)

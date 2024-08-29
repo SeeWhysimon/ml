@@ -7,9 +7,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report
 
-data = pd.read_csv('../../data/mobile phone price/train.csv')
+data = pd.read_csv('../data/mobile phone price/train.csv')
 
-# Separate features (X) and target (y)
 X = data.drop('price_range', axis=1)
 y = data['price_range']
 

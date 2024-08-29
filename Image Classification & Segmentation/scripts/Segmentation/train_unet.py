@@ -38,7 +38,7 @@ def train():
 
         print(f"Epoch {epoch+1}/{num_epochs}, Loss: {running_loss/len(train_loader)}")
 
-    torch.save(model.state_dict(), '../../../results/Image Classification & Segmentation/Segmentation/unet_model.pth')
+    torch.save(model.state_dict(), '../../results/Segmentation/unet_model.pth')
 
 if __name__ == "__main__":
     train()

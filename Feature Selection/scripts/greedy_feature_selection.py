@@ -49,7 +49,7 @@ class GreedyFeatureSelection:
         return X[:, features], scores, features
 
 if __name__ == '__main__':
-    df = pd.read_csv('../../data/Feature Selection/original_data.csv')
+    df = pd.read_csv('../data/original_data.csv')
 
     target = df.columns[-1]
     y = df[target].values
@@ -62,6 +62,6 @@ if __name__ == '__main__':
     df_transformed = pd.DataFrame(X_transformed, columns=feature_names[selected_features])
     df_transformed[target] = y
     
-    df_transformed.to_csv('../../data/Feature Selection/greedy_feature_selection.csv', index=False)
+    df_transformed.to_csv('../data/greedy_feature_selection.csv', index=False)
     
     print("Transformed features saved to 'selected_features_data.csv'.")

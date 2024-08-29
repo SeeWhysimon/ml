@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('../../data/Feature Engineering/customer_transactions.csv')
+df = pd.read_csv('../data/customer_transactions.csv')
 new_df = pd.DataFrame()
 
 new_df['customer_id'] = df['customer_id']
@@ -16,4 +16,4 @@ new_var = new_df['log_transaction_amount'].var()
 print(f'Original variance: {ori_var}')
 print(f'New variance after log: {new_var}')
 
-new_df.to_csv('../../data/Feature Engineering/log_transformation.csv', index=False)
+new_df.to_csv('../data/log_transformation.csv', index=False)

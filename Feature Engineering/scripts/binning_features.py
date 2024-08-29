@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('../../data/Feature Engineering/customer_transactions.csv')
+df = pd.read_csv('../data/customer_transactions.csv')
 new_df = pd.DataFrame()
 
 new_df['customer_id'] = df['customer_id']
@@ -10,4 +10,4 @@ new_df['transaction_amount_bin_10'] = pd.cut(df['transaction_amount'], bins=10, 
 
 new_df['transaction_amount_bin_100'] = pd.cut(df['transaction_amount'], bins=100, labels=False)
 
-new_df.to_csv('../../data/Feature Engineering/binning_features.csv', index=False)
+new_df.to_csv('../data/binning_features.csv', index=False)

@@ -67,7 +67,7 @@ def run(df: pd.DataFrame, fold):
                                                     num_workers=1)
     
     print("Loading embeddings...")
-    embedding_dict = load_word_embeddings("../../../data/Text Classification & Regression/crawl-300d-2M.vec")
+    embedding_dict = load_word_embeddings("../../data/crawl-300d-2M.vec")
     embedding_matrix = create_embedding_matrix(tokenizer.word_index, embedding_dict)
     
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
@@ -100,6 +100,6 @@ def run(df: pd.DataFrame, fold):
             break
 
 if __name__ == "__main__":
-    df = create_folds("../../../data/Text Classification & Regression/IMDB Dataset.csv")
+    df = create_folds("../../data/IMDB Dataset.csv")
     for fold in range(config.FOLD_NUM):
         run(df=df, fold=fold)

@@ -7,7 +7,7 @@ from sklearn import model_selection
 from sklearn.feature_extraction.text import CountVectorizer
 
 if __name__ == "__main__":
-    df = pd.read_csv("../../data/Text Classification & Regression/IMDB Dataset.csv")
+    df = pd.read_csv("../data/IMDB Dataset.csv")
     df["kfold"] = -1
     df["sentiment"] = df["sentiment"].apply(lambda x: 1 if x == "positive" else 0)
     df = df.sample(frac=1).reset_index(drop=True)

@@ -9,7 +9,7 @@ from alexnet_engine import train_one_epoch, validate
 def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    full_dataset = CatDogDataset(csv_file='../../../data/cat_dog/train.csv')
+    full_dataset = CatDogDataset(csv_file='../../data/cat_dog/train.csv')
 
     train_size = int(0.8 * len(full_dataset))
     val_size = len(full_dataset) - train_size
@@ -35,7 +35,7 @@ def main():
         val_loss, val_acc = validate(model, val_loader, criterion, device)
         print(f'Validation Loss: {val_loss:.4f}, Validation Accuracy: {val_acc:.2f}%')
 
-    torch.save(model.state_dict(), '../../../results/Image Classification & Segmentation/Classification/alexnet_cat_dog.pth')
+    torch.save(model.state_dict(), '../../results/Classification/alexnet_cat_dog.pth')
     print("Training complete and model saved.")
 
 if __name__ == '__main__':

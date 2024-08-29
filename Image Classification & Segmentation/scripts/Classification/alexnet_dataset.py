@@ -21,5 +21,5 @@ class CatDogDataset(Dataset):
 
 # example usage：
 # from torch.utils.data import DataLoader
-# dataset = CatDogDataset(csv_file='../../../data/cat_dog/train.csv')
+# dataset = CatDogDataset(csv_file='../../data/cat_dog/train.csv')
 # dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
